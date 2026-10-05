@@ -1,0 +1,10 @@
+fastmcp
+langgraph
+langgraph-checkpoint-sqlite
+langchain-ollama
+streamlit
+psutil
+langchain-community
+sentence-transformers
+pydantic
+faiss-cpu

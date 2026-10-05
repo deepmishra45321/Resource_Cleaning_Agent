@@ -1,0 +1,9 @@
+@echo off
+echo Creating virtual environment...
+python -m venv venv
+call venv\Scripts\activate.bat
+echo Installing dependencies...
+pip install -r requirements.txt
+echo Pulling Qwen2.5:1.5b model...
+ollama pull qwen2.5:1.5b
+echo Setup complete.
